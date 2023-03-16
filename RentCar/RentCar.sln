@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentCar.API", "RentCar.API\RentCar.API.csproj", "{32EE0708-03EF-4FFF-8888-49540B42AD7A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{C5CAD7D7-31D0-4A76-A9B6-19E684DC1AF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RentCar.Data.Common", "RentCar.Data.Common\RentCar.Data.Common.csproj", "{97593D60-1E0A-4FFC-AB98-67426997ABD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{32EE0708-03EF-4FFF-8888-49540B42AD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{32EE0708-03EF-4FFF-8888-49540B42AD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{32EE0708-03EF-4FFF-8888-49540B42AD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97593D60-1E0A-4FFC-AB98-67426997ABD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97593D60-1E0A-4FFC-AB98-67426997ABD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97593D60-1E0A-4FFC-AB98-67426997ABD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97593D60-1E0A-4FFC-AB98-67426997ABD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{97593D60-1E0A-4FFC-AB98-67426997ABD3} = {C5CAD7D7-31D0-4A76-A9B6-19E684DC1AF0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C6DF7AE3-4D13-4AD6-AA2B-5DCBEACE8568}
